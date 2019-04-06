@@ -29,14 +29,14 @@ public class Arrays {
         }
     }
     /*访问是否越界*/
-    boolean isOutOfSize(int index){
+    public boolean isOutOfSize(int index){
         if(index >= 0){
             return index > this.size;
         }
         return false;
     }
     /*获取指定下标的节点*/
-    Node getNodeByIndex(int index){
+    public Node getNodeByIndex(int index){
         Node p = this.head;
         int i = 0;
         while(i != index){

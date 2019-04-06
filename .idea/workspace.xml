@@ -11,7 +11,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1743">
+              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/ListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,8 +60,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Node.java" />
-        <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Arrays.java" />
         <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/ArraysTest.java" />
+        <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Arrays.java" />
+        <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/Node.java" />
+        <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/List.java" />
+        <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/ListTest.java" />
       </list>
     </option>
   </component>
@@ -71,14 +106,21 @@
               <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -99,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArraysTest.t">
+  <component name="RunManager" selected="JUnit.ListTest.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Cliff_Ford-Algorithm" />
@@ -153,6 +195,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ListTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cliff_Ford.DataStructure.List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Cliff_Ford.DataStructure.List" />
+      <option name="MAIN_CLASS_NAME" value="Cliff_Ford.DataStructure.List.ListTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -172,11 +237,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ArraysTest.Test" />
       <item itemvalue="JUnit.ArraysTest.t" />
+      <item itemvalue="JUnit.ListTest.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArraysTest.t" />
+        <item itemvalue="JUnit.ListTest.Test" />
         <item itemvalue="JUnit.ArraysTest.Test" />
+        <item itemvalue="JUnit.ArraysTest.t" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -193,25 +260,12 @@
       <updated>1554114988151</updated>
       <workItem from="1554114996026" duration="303000" />
       <workItem from="1554514325226" duration="7555000" />
+      <workItem from="1554530411257" duration="3853000" />
+      <workItem from="1554541080655" duration="4408000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArraysTest_Test - 2019.04.06 at 10h 48m 40s.xml">
-      <configuration name="ArraysTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraysTest_Test - 2019.04.06 at 10h 51m 45s.xml">
-      <configuration name="ArraysTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraysTest_Test - 2019.04.06 at 10h 52m 05s.xml">
-      <configuration name="ArraysTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraysTest_Test - 2019.04.06 at 11h 17m 56s.xml">
-      <configuration name="ArraysTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraysTest_Test - 2019.04.06 at 11h 22m 21s.xml">
-      <configuration name="ArraysTest.Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArraysTest_Test - 2019.04.06 at 11h 23m 50s.xml">
       <configuration name="ArraysTest.Test" configurationId="JUnit" />
     </history-entry>
@@ -221,9 +275,30 @@
     <history-entry file="ArraysTest_t - 2019.04.06 at 11h 39m 27s.xml">
       <configuration name="ArraysTest.t" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArraysTest_Test - 2019.04.06 at 14h 08m 19s.xml">
+      <configuration name="ArraysTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_Test - 2019.04.06 at 18h 16m 48s.xml">
+      <configuration name="ListTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_Test - 2019.04.06 at 18h 18m 57s.xml">
+      <configuration name="ListTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_Test - 2019.04.06 at 18h 20m 40s.xml">
+      <configuration name="ListTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_Test - 2019.04.06 at 18h 20m 56s.xml">
+      <configuration name="ListTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_Test - 2019.04.06 at 18h 21m 44s.xml">
+      <configuration name="ListTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_Test - 2019.04.06 at 18h 22m 20s.xml">
+      <configuration name="ListTest.Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7858000" />
+    <option name="totallyTimeSpent" value="16119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -242,7 +317,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,6 +350,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/ArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -291,12 +387,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliff_Ford-Algorithm.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -321,22 +411,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="483">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/ArraysTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="115">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/Arrays/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8319">
+          <caret line="531" column="30" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliff_Ford/DataStructure/List/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
