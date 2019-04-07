@@ -65,6 +65,7 @@ public class Stack {
         if(this.top == null){
             this.top = new Node();
             this.top.val = val;
+            return;
         }
         this.top.val = val;
     }

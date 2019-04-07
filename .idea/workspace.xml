@@ -12,29 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="524">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -73,8 +55,11 @@
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/array/Node.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Node.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/array/Arrays.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Node.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/QueueTest.java" />
       </list>
     </option>
   </component>
@@ -117,27 +102,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,14 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.test">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Cliff_Ford-Algorithm" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.QueueTest.test">
     <configuration name="ArraysTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -247,6 +204,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="QueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.data.structure.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.queue" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.queue.QueueTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="StackTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -286,19 +266,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ArraysTest.Test" />
       <item itemvalue="JUnit.ArraysTest.t" />
       <item itemvalue="JUnit.ListTest.Test" />
       <item itemvalue="JUnit.StackTest.test" />
+      <item itemvalue="JUnit.QueueTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.test" />
         <item itemvalue="JUnit.StackTest.test" />
         <item itemvalue="JUnit.ListTest.Test" />
         <item itemvalue="JUnit.ArraysTest.Test" />
         <item itemvalue="JUnit.ArraysTest.t" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -318,44 +298,44 @@
       <workItem from="1554541080655" duration="4408000" />
       <workItem from="1554599491441" duration="1503000" />
       <workItem from="1554601234290" duration="2402000" />
-      <workItem from="1554603811618" duration="2131000" />
+      <workItem from="1554603811618" duration="5975000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest_Test - 2019.04.06 at 18h 18m 57s.xml">
-      <configuration name="ListTest.Test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 42m 37s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_Test - 2019.04.06 at 18h 20m 40s.xml">
-      <configuration name="ListTest.Test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 45m 38s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_Test - 2019.04.06 at 18h 20m 56s.xml">
-      <configuration name="ListTest.Test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 52m 32s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_Test - 2019.04.06 at 18h 21m 44s.xml">
-      <configuration name="ListTest.Test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 53m 57s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_Test - 2019.04.06 at 18h 22m 20s.xml">
-      <configuration name="ListTest.Test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 54m 46s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test - 2019.04.07 at 10h 44m 27s.xml">
-      <configuration name="StackTest.test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 57m 13s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test - 2019.04.07 at 10h 48m 27s.xml">
-      <configuration name="StackTest.test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 57m 40s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test - 2019.04.07 at 10h 49m 35s.xml">
-      <configuration name="StackTest.test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 59m 07s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test - 2019.04.07 at 10h 50m 07s.xml">
-      <configuration name="StackTest.test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 11h 59m 15s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test - 2019.04.07 at 10h 57m 13s.xml">
-      <configuration name="StackTest.test" configurationId="JUnit" />
+    <history-entry file="QueueTest_test - 2019.04.07 at 12h 00m 47s.xml">
+      <configuration name="QueueTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22155000" />
+    <option name="totallyTimeSpent" value="25999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -371,11 +351,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49957663" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957663" weight="0.32673267" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,7 +384,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -615,17 +595,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        <state relative-caret-position="84">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java">
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="112">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
