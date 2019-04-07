@@ -1,6 +1,7 @@
 package cliff.ford.data.structure.list;
 
 /**
+ * 数据结构链表
  * @author Cliff_Ford
  */
 public class List {

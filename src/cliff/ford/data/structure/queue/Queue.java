@@ -1,6 +1,7 @@
 package cliff.ford.data.structure.queue;
 
 /**
+ * 数据结构队列
  * @author Cliff_Ford
  */
 public class Queue {

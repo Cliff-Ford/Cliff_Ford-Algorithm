@@ -1,6 +1,7 @@
 package cliff.ford.data.structure.stack;
 
 /**
+ * 数据结构栈
  * @author Cliff_Ford
  */
 public class Stack {

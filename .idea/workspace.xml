@@ -12,11 +12,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
+      <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="125">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -48,7 +66,6 @@
         <option value="$PROJECT_DIR$/src/Cliff_Ford/DataStructure/list/List.java" />
         <option value="$PROJECT_DIR$/src/Cliff_Ford/dataStructure2/list/List.java" />
         <option value="$PROJECT_DIR$/src/Cliff_Ford/dataStructure/list/List.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/List.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/ListTest.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/Node.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/array/ArraysTest.java" />
@@ -57,9 +74,13 @@
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/array/Arrays.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Node.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/List.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/Node.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTableTest.java" />
       </list>
     </option>
   </component>
@@ -84,6 +105,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,13 +126,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest.test">
+  <component name="RunManager" selected="JUnit.HashTableTest.test">
     <configuration name="ArraysTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -158,19 +186,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArraysTest.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashTableTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cliff_Ford.dataStructure.array.*" />
+          <option name="PATTERN" value="cliff.ford.data.structure.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Cliff_Ford.dataStructure.array" />
-      <option name="MAIN_CLASS_NAME" value="Cliff_Ford.dataStructure.array.ArraysTest" />
-      <option name="METHOD_NAME" value="t" />
+      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.hashtable" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.hashtable.HashTableTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -267,18 +295,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ArraysTest.Test" />
-      <item itemvalue="JUnit.ArraysTest.t" />
       <item itemvalue="JUnit.ListTest.Test" />
       <item itemvalue="JUnit.StackTest.test" />
       <item itemvalue="JUnit.QueueTest.test" />
+      <item itemvalue="JUnit.HashTableTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashTableTest.test" />
         <item itemvalue="JUnit.QueueTest.test" />
         <item itemvalue="JUnit.StackTest.test" />
         <item itemvalue="JUnit.ListTest.Test" />
         <item itemvalue="JUnit.ArraysTest.Test" />
-        <item itemvalue="JUnit.ArraysTest.t" />
       </list>
     </recent_temporary>
   </component>
@@ -298,44 +326,45 @@
       <workItem from="1554541080655" duration="4408000" />
       <workItem from="1554599491441" duration="1503000" />
       <workItem from="1554601234290" duration="2402000" />
-      <workItem from="1554603811618" duration="5975000" />
+      <workItem from="1554603811618" duration="6566000" />
+      <workItem from="1554617464635" duration="7929000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 42m 37s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 01m 57s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 45m 38s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 02m 02s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 52m 32s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 05m 45s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 53m 57s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 07m 07s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 54m 46s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 09m 21s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 57m 13s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 10m 31s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 57m 40s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 11m 10s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 59m 07s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 12m 41s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 11h 59m 15s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 13m 32s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_test - 2019.04.07 at 12h 00m 47s.xml">
-      <configuration name="QueueTest.test" configurationId="JUnit" />
+    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 14m 20s.xml">
+      <configuration name="HashTableTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25999000" />
+    <option name="totallyTimeSpent" value="34519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -347,15 +376,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004234" side_tool="true" weight="0.32827324" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004234" side_tool="true" weight="0.32673267" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957663" weight="0.32673267" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49957663" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,10 +413,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -510,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8319">
-          <caret line="531" column="30" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/array/ArraysTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -545,20 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/list/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/array/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -577,14 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#5951#6086#0" expanded="true" />
-            <element signature="e#6085#6086#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,20 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -630,10 +631,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/list/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="63">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/array/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1421">
+          <caret line="590" column="16" lean-forward="true" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
