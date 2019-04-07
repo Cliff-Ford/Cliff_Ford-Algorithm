@@ -1,7 +1,10 @@
-package Cliff_Ford.DataStructure.List;
+package cliff.ford.data.structure.list;
 
 import org.junit.Test;
 
+/**
+ * @author Cliff_Ford
+ */
 public class ListTest {
     @Test
     public void Test(){

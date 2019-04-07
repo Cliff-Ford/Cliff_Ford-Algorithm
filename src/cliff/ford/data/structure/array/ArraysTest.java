@@ -1,7 +1,10 @@
-package Cliff_Ford.DataStructure.Arrays;
+package cliff.ford.data.structure.array;
 
 import org.junit.Test;
 
+/**
+ * @author Cliff_Ford
+ */
 public class ArraysTest {
     @Test
     public void Test(){

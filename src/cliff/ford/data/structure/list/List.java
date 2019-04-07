@@ -1,11 +1,18 @@
-package Cliff_Ford.DataStructure.List;
+package cliff.ford.data.structure.list;
 
+/**
+ * @author Cliff_Ford
+ */
 public class List {
     Node head = null;
     List(){
         this.head = new Node();
     }
-    //尾插法
+
+    /**
+     * 尾插法
+     * @param val
+     */
     public void addToTail(Integer val){
         //链表可能被删空了
         if(this.head == null){
@@ -23,7 +30,11 @@ public class List {
             t.next = p;
         }
     }
-    //头插法
+
+    /**
+     * 头插法
+     * @param val
+     */
     public void addToHead(Integer val){
         //链表可能被删空了
         if(this.head == null){
@@ -38,7 +49,11 @@ public class List {
             this.head = p;
         }
     }
-    //删除指定值的第一个节点
+
+    /**
+     * 删除指定值的第一个节点
+     * @param val
+     */
     public void deleteNodeByVal(Integer val){
         //第一个就命中
         if(this.head.val.equals(val)){
@@ -58,7 +73,12 @@ public class List {
             }
         }
     }
-    //查找指定值的第一节点
+
+    /**
+     * 查找指定值的第一节点
+     * @param val 指定值
+     * @return p为指定值的节点，没有则为空
+     */
     public Node findNodeByVal(Integer val){
         Node p = this.head;
         while(!p.val.equals(val)){
@@ -66,14 +86,22 @@ public class List {
         }
         return p;
     }
-    //将指定值的第一个节点修改成另一个指定值
+
+    /**
+     * 将指定值的第一个节点修改成另一个指定值
+     * @param val 旧值
+     * @param otherVal 新值
+     */
     public void changeValToOtherValByVal(Integer val, Integer otherVal){
         Node t = findNodeByVal(val);
         if(t != null){
             t.val = otherVal;
         }
     }
-    //遍历
+
+    /**
+     * 遍历
+     */
     public void check(){
         Node p = this.head;
         while(p!=null){
