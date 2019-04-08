@@ -12,29 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java">
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="188">
+              <caret line="193" column="40" lean-forward="true" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTableTest.java">
+      <file leaf-file-name="HeapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="419">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -47,6 +38,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lChirld</find>
+      <find>rChirld</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,6 +78,9 @@
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/Node.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTableTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Node.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java" />
       </list>
     </option>
   </component>
@@ -105,9 +105,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +131,7 @@
               <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,30 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashTableTest.test">
-    <configuration name="ArraysTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cliff_Ford-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cliff_Ford.dataStructure.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Cliff_Ford.dataStructure.array" />
-      <option name="MAIN_CLASS_NAME" value="Cliff_Ford.dataStructure.array.ArraysTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.HeapTest.test">
     <configuration name="HashTableTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -198,6 +175,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cliff.ford.data.structure.hashtable" />
       <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.hashtable.HashTableTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HeapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.data.structure.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.heap" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.heap.HeapTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -294,19 +294,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArraysTest.Test" />
       <item itemvalue="JUnit.ListTest.Test" />
       <item itemvalue="JUnit.StackTest.test" />
       <item itemvalue="JUnit.QueueTest.test" />
       <item itemvalue="JUnit.HashTableTest.test" />
+      <item itemvalue="JUnit.HeapTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapTest.test" />
         <item itemvalue="JUnit.HashTableTest.test" />
         <item itemvalue="JUnit.QueueTest.test" />
         <item itemvalue="JUnit.StackTest.test" />
         <item itemvalue="JUnit.ListTest.Test" />
-        <item itemvalue="JUnit.ArraysTest.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -327,44 +327,45 @@
       <workItem from="1554599491441" duration="1503000" />
       <workItem from="1554601234290" duration="2402000" />
       <workItem from="1554603811618" duration="6566000" />
-      <workItem from="1554617464635" duration="7929000" />
+      <workItem from="1554617464635" duration="15806000" />
+      <workItem from="1554686595868" duration="6621000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 01m 57s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 10h 46m 39s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 02m 02s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 10h 49m 21s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 05m 45s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 10h 49m 54s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 07m 07s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 10h 59m 02s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 09m 21s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 11h 01m 08s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 10m 31s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 11h 05m 31s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 11m 10s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 11h 08m 32s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 12m 41s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 11h 09m 21s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 13m 32s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 11h 18m 42s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest_test - 2019.04.07 at 16h 14m 20s.xml">
-      <configuration name="HashTableTest.test" configurationId="JUnit" />
+    <history-entry file="HeapTest_test - 2019.04.08 at 11h 29m 44s.xml">
+      <configuration name="HeapTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34519000" />
+    <option name="totallyTimeSpent" value="49017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -380,18 +381,18 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49957663" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957663" weight="0.32673267" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -415,16 +416,48 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2163">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -589,27 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -680,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -698,6 +703,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="292" column="27" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="27" />
+          <folding>
+            <element signature="e#11119#11120#0" expanded="true" />
+            <element signature="e#11200#11201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="230" column="31" selection-start-line="230" selection-start-column="25" selection-end-line="230" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="193" column="40" lean-forward="true" selection-start-line="193" selection-start-column="40" selection-end-line="193" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
