@@ -1,7 +1,6 @@
 package cliff.ford.algorithm.sort.quick;
 
 import cliff.ford.algorithm.sort.Check;
-import cliff.ford.algorithm.sort.select.SelectSort;
 import org.junit.Test;
 
 /**
