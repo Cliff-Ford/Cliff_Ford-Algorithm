@@ -3,6 +3,7 @@ package cliff.ford.algorithm.sort.select;
 import cliff.ford.algorithm.sort.Sort;
 
 /**
+ * 选择排序
  * @author Cliff_Ford
  */
 
