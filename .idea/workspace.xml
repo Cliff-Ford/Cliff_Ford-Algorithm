@@ -12,45 +12,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinaryNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+            <state relative-caret-position="230">
+              <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
               <folding>
                 <element signature="method#change#0;class#BinarySearchTree#0" />
                 <element signature="method#pickDown#0;class#BinarySearchTree#0" />
                 <element signature="method#addATree#0;class#BinarySearchTree#0" />
                 <element signature="e#3040#3041#0" expanded="true" />
-                <element signature="e#3063#3064#0" expanded="true" />
+                <element signature="e#3086#3087#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BSTTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -137,7 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,8 +142,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,6 +183,29 @@
       <option name="PACKAGE_NAME" value="cliff.ford.data.structure.tree" />
       <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.tree.BSTTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BSTTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.data.structure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.tree" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.tree.BSTTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -280,29 +285,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StackTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cliff_Ford-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cliff.ford.data.structure.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.stack" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.stack.StackTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -319,19 +301,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StackTest.test" />
       <item itemvalue="JUnit.QueueTest.test" />
       <item itemvalue="JUnit.HashTableTest.test" />
       <item itemvalue="JUnit.HeapTest.test" />
       <item itemvalue="JUnit.BSTTest.test" />
+      <item itemvalue="JUnit.BSTTest.test2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BSTTest.test" />
+        <item itemvalue="JUnit.BSTTest.test2" />
         <item itemvalue="JUnit.HeapTest.test" />
         <item itemvalue="JUnit.HashTableTest.test" />
         <item itemvalue="JUnit.QueueTest.test" />
-        <item itemvalue="JUnit.StackTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -354,23 +336,12 @@
       <workItem from="1554603811618" duration="6566000" />
       <workItem from="1554617464635" duration="15806000" />
       <workItem from="1554686595868" duration="13271000" />
-      <workItem from="1554704685666" duration="19289000" />
+      <workItem from="1554704685666" duration="19525000" />
+      <workItem from="1554772700193" duration="816000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 29m 24s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 30m 30s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 31m 48s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 36m 01s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BSTTest_test - 2019.04.08 at 19h 43m 53s.xml">
       <configuration name="BSTTest.test" configurationId="JUnit" />
     </history-entry>
@@ -389,9 +360,21 @@
     <history-entry file="BSTTest_test - 2019.04.08 at 20h 06m 16s.xml">
       <configuration name="BSTTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BSTTest_test - 2019.04.08 at 20h 06m 20s.xml">
+      <configuration name="BSTTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTest_test - 2019.04.08 at 20h 07m 20s.xml">
+      <configuration name="BSTTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTest_test2 - 2019.04.09 at 09h 24m 20s.xml">
+      <configuration name="BSTTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTest_test2 - 2019.04.09 at 09h 28m 01s.xml">
+      <configuration name="BSTTest.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74956000" />
+    <option name="totallyTimeSpent" value="76008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -411,14 +394,14 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20347957" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -442,37 +425,31 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
-          <line>197</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
           <line>115</line>
           <properties />
-          <option name="timeStamp" value="67" />
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
           <line>119</line>
           <properties />
-          <option name="timeStamp" value="68" />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
-          <line>212</line>
+          <line>139</line>
           <properties />
-          <option name="timeStamp" value="69" />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="74" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -485,7 +462,7 @@
             <element signature="method#pickDown#0;class#BinarySearchTree#0" />
             <element signature="method#addATree#0;class#BinarySearchTree#0" />
             <element signature="e#3040#3041#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,16 +805,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="273">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
@@ -849,24 +819,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinaryNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="168">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        <state relative-caret-position="230">
+          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
           <folding>
             <element signature="method#change#0;class#BinarySearchTree#0" />
             <element signature="method#pickDown#0;class#BinarySearchTree#0" />
             <element signature="method#addATree#0;class#BinarySearchTree#0" />
             <element signature="e#3040#3041#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>

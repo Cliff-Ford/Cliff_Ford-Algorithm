@@ -142,7 +142,11 @@ public class BinarySearchTree {
                         //删除的是顶点
                         if(maxChild != null){
                             //顶点的左孩子有右孩子，maxChild是顶点左树的最大值
-                            maxChild.lChild = t.lChild;
+                            if(maxChild != t.lChild){
+                                maxChild.lChild = t.lChild;
+                            }else{
+                                maxChild.lChild = t.lChild.lChild;
+                            }
                             maxChild.rChild = t.rChild;
                             this.root = maxChild;
                         }

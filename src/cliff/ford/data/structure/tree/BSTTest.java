@@ -53,4 +53,18 @@ public class BSTTest {
         bst.delete(7);
         bst.check();
     }
+    @Test
+    public void test2(){
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.push(6);
+        bst.push(5);
+        bst.push(7);
+        bst.check();
+        bst.delete(6);
+        bst.check();
+        bst.delete(5);
+        bst.check();
+        bst.delete(7);
+        bst.check();
+    }
 }
