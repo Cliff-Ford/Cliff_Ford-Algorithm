@@ -12,27 +12,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java">
+      <file leaf-file-name="SoapSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/soap/SoapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
-              <folding>
-                <element signature="method#change#0;class#BinarySearchTree#0" />
-                <element signature="method#pickDown#0;class#BinarySearchTree#0" />
-                <element signature="method#addATree#0;class#BinarySearchTree#0" />
-                <element signature="e#3040#3041#0" expanded="true" />
-                <element signature="e#3086#3087#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="146">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java">
+      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/select/SelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="400">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectSortTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/select/SelectSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -42,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,6 +98,13 @@
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinaryNode.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/SoapSort.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/Check.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/soap/SoapSort.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/soap/SoapSortTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/select/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/sort/select/SelectSortTest.java" />
       </list>
     </option>
   </component>
@@ -136,7 +146,30 @@
               <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="select" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="soap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTest.test">
+  <component name="RunManager" selected="JUnit.SelectSortTest.test">
     <configuration name="BSTTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -216,29 +249,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HashTableTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cliff_Ford-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cliff.ford.data.structure.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.hashtable" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.hashtable.HashTableTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="HeapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -262,18 +272,41 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="QueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectSortTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cliff.ford.data.structure.queue.*" />
+          <option name="PATTERN" value="cliff.ford.algorithm.sort.select.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.queue" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.queue.QueueTest" />
+      <option name="PACKAGE_NAME" value="cliff.ford.algorithm.sort.select" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.sort.select.SelectSortTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SoapSortTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.algorithm.sort.soap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.algorithm.sort.soap" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.sort.soap.SoapSortTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -301,19 +334,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.QueueTest.test" />
-      <item itemvalue="JUnit.HashTableTest.test" />
       <item itemvalue="JUnit.HeapTest.test" />
       <item itemvalue="JUnit.BSTTest.test" />
       <item itemvalue="JUnit.BSTTest.test2" />
+      <item itemvalue="JUnit.SoapSortTest.test" />
+      <item itemvalue="JUnit.SelectSortTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectSortTest.test" />
+        <item itemvalue="JUnit.SoapSortTest.test" />
         <item itemvalue="JUnit.BSTTest.test" />
         <item itemvalue="JUnit.BSTTest.test2" />
         <item itemvalue="JUnit.HeapTest.test" />
-        <item itemvalue="JUnit.HashTableTest.test" />
-        <item itemvalue="JUnit.QueueTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -337,44 +370,44 @@
       <workItem from="1554617464635" duration="15806000" />
       <workItem from="1554686595868" duration="13271000" />
       <workItem from="1554704685666" duration="19525000" />
-      <workItem from="1554772700193" duration="816000" />
+      <workItem from="1554772700193" duration="6137000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 43m 53s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 10h 47m 51s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 46m 26s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 10h 48m 27s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 48m 36s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 10h 51m 15s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 50m 50s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 10h 51m 59s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 19h 57m 12s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 10h 56m 50s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 20h 06m 16s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 10h 57m 13s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 20h 06m 20s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 11h 02m 20s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test - 2019.04.08 at 20h 07m 20s.xml">
-      <configuration name="BSTTest.test" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 11h 04m 39s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test2 - 2019.04.09 at 09h 24m 20s.xml">
-      <configuration name="BSTTest.test2" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 11h 07m 38s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTest_test2 - 2019.04.09 at 09h 28m 01s.xml">
-      <configuration name="BSTTest.test2" configurationId="JUnit" />
+    <history-entry file="SoapSortTest_test - 2019.04.09 at 11h 08m 23s.xml">
+      <configuration name="SoapSortTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76008000" />
+    <option name="totallyTimeSpent" value="81329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -390,18 +423,18 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957663" weight="0.32673267" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957663" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20347957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20347957" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39933994" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -425,93 +458,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
-          <line>115</line>
+          <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/soap/SoapSort.java</url>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
-          <line>119</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java</url>
-          <line>139</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="73" />
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="76" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="method#change#0;class#BinarySearchTree#0" />
-            <element signature="method#pickDown#0;class#BinarySearchTree#0" />
-            <element signature="method#addATree#0;class#BinarySearchTree#0" />
-            <element signature="e#3040#3041#0" expanded="true" />
-            <element signature="e#3086#3087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2163">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="method#check#0;class#Heap#0" />
-            <element signature="method#getNodeToAddChild#0;class#Heap#0" />
-            <element signature="method#add#0;class#Heap#0" />
-            <element signature="method#delete#0;class#Heap#0" />
-            <element signature="method#peek#0;class#Heap#0" />
-            <element signature="method#adjustHeapFromTopToBottom#0;class#Heap#0" />
-            <element signature="method#adjustHeapFromBottomToTop#0;class#Heap#0" />
-            <element signature="method#swap#0;class#Heap#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/heap/HeapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/list/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -826,10 +782,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+        <state relative-caret-position="283">
+          <caret line="251" column="44" lean-forward="true" selection-start-line="251" selection-start-column="44" selection-end-line="251" selection-end-column="44" />
           <folding>
             <element signature="method#change#0;class#BinarySearchTree#0" />
             <element signature="method#pickDown#0;class#BinarySearchTree#0" />
@@ -840,10 +803,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BSTTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/Check.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="-11">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/soap/SoapSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/soap/SoapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/select/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/sort/select/SelectSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
