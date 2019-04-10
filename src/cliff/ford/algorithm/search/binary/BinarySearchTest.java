@@ -1,7 +1,6 @@
 package cliff.ford.algorithm.search.binary;
 
 import cliff.ford.algorithm.search.Search;
-import cliff.ford.algorithm.search.linear.LinearSearch;
 import org.junit.Test;
 
 /**
