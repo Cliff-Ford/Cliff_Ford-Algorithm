@@ -1,7 +1,7 @@
-package cliff.ford.data.structure.graph;
+package cliff.ford.data.structure.graph.normal;
 
 /**
- * 邻接列表的边
+ * 图的边
  * @author Cliff_Ford
  */
 public class Edge {

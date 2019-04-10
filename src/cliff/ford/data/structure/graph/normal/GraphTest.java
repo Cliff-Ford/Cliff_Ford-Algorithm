@@ -1,4 +1,4 @@
-package cliff.ford.data.structure.graph;
+package cliff.ford.data.structure.graph.normal;
 
 import org.junit.Test;
 

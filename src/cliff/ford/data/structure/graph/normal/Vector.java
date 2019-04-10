@@ -1,7 +1,7 @@
-package cliff.ford.data.structure.graph;
+package cliff.ford.data.structure.graph.normal;
 
 /**
- * 邻接列表的节点
+ * 图的顶点
  * @author Cliff_Ford
  */
 public class Vector {

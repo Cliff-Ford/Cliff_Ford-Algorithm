@@ -11,44 +11,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Graph.java">
+    <leaf>
+      <file leaf-file-name="BreadthFirstSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/BreadthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="241">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Edge.java">
+      <file leaf-file-name="BreadthFirstSearchTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/BreadthFirstSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10856">
-              <caret line="621" column="26" lean-forward="true" selection-start-line="621" selection-start-column="26" selection-end-line="621" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/GraphTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="430">
+              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +52,7 @@
       <find>rChirld</find>
       <find>findParent</find>
       <find>indexOf</find>
+      <find>this</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,16 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Cliff_Ford/dataStructure2/list/List.java" />
-        <option value="$PROJECT_DIR$/src/Cliff_Ford/dataStructure/list/List.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/Node.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/array/ArraysTest.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/array/Node.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Node.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Node.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/list/List.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java" />
@@ -124,10 +98,20 @@
         <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/linear/LinearSearchTest.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/binary/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/binary/BinarySearchTest.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Vector.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Edge.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthFirst/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Edge.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadth_first/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/Vector.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Vector.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/normal/Vector.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/Vector.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/Graph.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraph.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraphTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/BreadthFirstSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/BreadthFirstSearch.java" />
       </list>
     </option>
   </component>
@@ -152,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +166,23 @@
               <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ford" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="breadthfirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,12 +193,22 @@
               <item name="structure" type="462c0819:PsiDirectoryNode" />
               <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ford" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="adjacencylist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +219,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cliff.ford.data.structure.graph.adjacencylist" />
       <recent name="cliff.ford.algorithm.sort.select" />
       <recent name="Cliff_Ford.DataStructure.Stack" />
     </key>
@@ -225,7 +236,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GraphTest.test">
+  <component name="RunManager" selected="JUnit.BreadthFirstSearchTest.test">
+    <configuration name="AdjacencyListGraphTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.data.structure.graph.adjacencylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.graph.adjacencylist" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.graph.adjacencylist.AdjacencyListGraphTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="BinarySearchTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -249,18 +283,41 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GraphTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BreadthFirstSearchTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cliff.ford.data.structure.graph.*" />
+          <option name="PATTERN" value="cliff.ford.algorithm.search.breadthfirst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.graph" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.graph.GraphTest" />
+      <option name="PACKAGE_NAME" value="cliff.ford.algorithm.search.breadthfirst" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.search.breadthfirst.BreadthFirstSearchTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GraphTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.data.structure.graph.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.graph.normal" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.graph.normal.GraphTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -295,52 +352,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MergeSortTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cliff_Ford-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cliff.ford.algorithm.sort.merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.algorithm.sort.merge" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.sort.merge.MergeSortTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MergeSortTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cliff_Ford-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cliff.ford.algorithm.sort.merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.algorithm.sort.merge" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.sort.merge.MergeSortTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -357,19 +368,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MergeSortTest.test2" />
-      <item itemvalue="JUnit.MergeSortTest.test" />
       <item itemvalue="JUnit.LinearSearchTest.test" />
       <item itemvalue="JUnit.BinarySearchTest.test" />
       <item itemvalue="JUnit.GraphTest.test" />
+      <item itemvalue="JUnit.AdjacencyListGraphTest.test" />
+      <item itemvalue="JUnit.BreadthFirstSearchTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreadthFirstSearchTest.test" />
+        <item itemvalue="JUnit.AdjacencyListGraphTest.test" />
         <item itemvalue="JUnit.GraphTest.test" />
         <item itemvalue="JUnit.BinarySearchTest.test" />
         <item itemvalue="JUnit.LinearSearchTest.test" />
-        <item itemvalue="JUnit.MergeSortTest.test2" />
-        <item itemvalue="JUnit.MergeSortTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -395,20 +406,12 @@
       <workItem from="1554704685666" duration="19525000" />
       <workItem from="1554772700193" duration="8581000" />
       <workItem from="1554789008387" duration="14365000" />
-      <workItem from="1554859964178" duration="10089000" />
+      <workItem from="1554859964178" duration="10270000" />
+      <workItem from="1554875748351" duration="7572000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest_test - 2019.04.10 at 10h 28m 04s.xml">
-      <configuration name="BinarySearchTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest_test - 2019.04.10 at 10h 31m 12s.xml">
-      <configuration name="BinarySearchTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest_test - 2019.04.10 at 10h 32m 31s.xml">
-      <configuration name="BinarySearchTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTest_test - 2019.04.10 at 10h 42m 56s.xml">
       <configuration name="BinarySearchTest.test" configurationId="JUnit" />
     </history-entry>
@@ -430,9 +433,18 @@
     <history-entry file="GraphTest_test - 2019.04.10 at 12h 54m 15s.xml">
       <configuration name="GraphTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GraphTest_test - 2019.04.10 at 13h 06m 16s.xml">
+      <configuration name="GraphTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyListGraphTest_test - 2019.04.10 at 16h 37m 48s.xml">
+      <configuration name="AdjacencyListGraphTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdjacencyListGraphTest_test - 2019.04.10 at 16h 44m 46s.xml">
+      <configuration name="AdjacencyListGraphTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108227000" />
+    <option name="totallyTimeSpent" value="115980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,8 +473,9 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -474,7 +487,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,67 +509,17 @@
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraphTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="101" />
+      <option name="time" value="104" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/list/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/stack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="590" column="16" lean-forward="true" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/hashtable/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -569,27 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
@@ -639,20 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -765,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -810,17 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,29 +759,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Edge.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="256">
+          <caret line="195" column="6" lean-forward="true" selection-start-line="195" selection-start-column="6" selection-end-line="195" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/GraphTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/normal/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/normal/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/normal/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/normal/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-767">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/breadthfirst/BreadthFirstSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

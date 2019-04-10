@@ -1,15 +1,16 @@
-package cliff.ford.data.structure.graph;
+package cliff.ford.data.structure.graph.adjacencylist;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 邻接列表表示的无向图
+ * 邻接列表形式的图
  * @author Cliff_Ford
  */
-public class Graph {
-    List<Vector> vectors = new ArrayList<>();
-    List<Edge> edges = new ArrayList<>();
+public class AdjacencyListGraph {
+    public List<Vector> vectors = new ArrayList<>();
+
 
     /**
      * 添加顶点
@@ -19,20 +20,7 @@ public class Graph {
         this.vectors.add(new Vector(key));
     }
 
-    /**
-     * 添加边
-     * @param leftNode 边的左顶点
-     * @param rightNode 边的右顶点
-     */
-    public void addEdge(Integer leftNode, Integer rightNode){
-        Vector left = findVectorByKey(leftNode);
-        if(left != null){
-            Vector right = findVectorByKey(rightNode);
-            if(right != null){
-                this.edges.add(new Edge(left, right));
-            }
-        }
-    }
+
     private Vector findVectorByKey(Integer key){
         if(key == null){
             return null;
@@ -44,6 +32,21 @@ public class Graph {
         }
         return null;
     }
+    /**
+     * 添加边
+     * @param leftNode 边的左顶点
+     * @param rightNode 边的右顶点
+     */
+    public void addEdge(Integer leftNode, Integer rightNode){
+        Vector left = findVectorByKey(leftNode);
+        if(left != null){
+            Vector right = findVectorByKey(rightNode);
+            if(right != null){
+                left.reachAbleNodes.add(right);
+                right.reachAbleNodes.add(left);
+            }
+        }
+    }
 
     /**
      * 删除顶点
@@ -53,32 +56,24 @@ public class Graph {
         Vector target = findVectorByKey(key);
         if(target != null){
             this.vectors.remove(target);
-            deleteEdges(target);
-        }
-    }
-    private void deleteEdges(Vector target){
-        for(int i = this.edges.size()-1; i >= 0; i--){
-            Edge edge = this.edges.get(i);
-            if(edge.leftNode == target || edge.rightNode == target){
-                this.edges.remove(edge);
+            //删除其他顶点连接该顶点的边
+            for(Vector v : this.vectors){
+                v.reachAbleNodes.remove(target);
             }
         }
     }
+
 
     /**
      * 查找指定key的顶点，输出该顶点的所有边
      * @param key 指定key
      */
-    public void get(Integer key){
+    public Vector get(Integer key){
         Vector target = findVectorByKey(key);
         if(target != null){
-            for(Edge edge : this.edges){
-                if(edge.leftNode == target || edge.rightNode == target){
-                    System.out.print(edge.leftNode.key+"-"+edge.rightNode.key+" ");
-                }
-            }
-            System.out.println();
+            return target;
         }
+        return null;
     }
 
     /**
@@ -92,16 +87,17 @@ public class Graph {
             target.key = newKey;
         }
     }
+
+    /**
+     * 输出所有节点及其对应可到达的节点
+     */
     public void check(){
-        System.out.println("Vectors:");
         for(Vector vector : this.vectors){
-            System.out.print(vector.key + " ");
+            System.out.print(vector.key+" -> ");
+            for(Vector v : vector.reachAbleNodes){
+                System.out.print(v.key+" ");
+            }
+            System.out.println();
         }
-        System.out.println();
-        System.out.println("Edges:");
-        for (Edge e : this.edges){
-            System.out.print(e.leftNode.key+"-"+e.rightNode.key+" ");
-        }
-        System.out.println();
     }
 }
