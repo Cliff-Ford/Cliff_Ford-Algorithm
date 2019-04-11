@@ -23,11 +23,29 @@ public class BreadthFirstSearch {
         if(key == null || graph == null || graph.vectors == null){
             return null;
         }
+
         //用于标记某个节点是否已经被访问过
         boolean[] flag = new boolean[graph.vectors.size()];
+        //访问图中孤立的点
+        for(int i = 0; i < graph.vectors.size(); i++){
+            if(graph.vectors.get(i).reachAbleNodes.size() == 0){
+                if(graph.vectors.get(i).key.equals(key)){
+                    return graph.vectors.get(i);
+                }else{
+                    flag[i] = true;
+                }
+            }
+        }
         Queue<Vector> queue = new LinkedList<>();
         if(graph.vectors.size()>0){
-            queue.add(graph.vectors.get(0));
+            int index = 0;
+            for(int i = 0; i < flag.length; i++){
+                if(!flag[i]){
+                    index = i;
+                    break;
+                }
+            }
+            queue.add(graph.vectors.get(index));
         }
         while(!queue.isEmpty()){
             Vector t = queue.poll();

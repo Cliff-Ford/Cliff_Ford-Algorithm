@@ -21,9 +21,14 @@ public class BreadthFirstSearchTest {
         graph.addEdge(2,3);
         graph.addEdge(2,4);
         System.out.println(BreadthFirstSearch.search(graph, 2).key);
-        System.out.println(BreadthFirstSearch.search(graph, 2).reachAbleNodes.size());
+        //制造孤立点
+        graph.deleteVector(2);
         System.out.println(BreadthFirstSearch.search(graph, 8));
         System.out.println(BreadthFirstSearch.search(graph, null));
         System.out.println(BreadthFirstSearch.search(null, 2));
+        System.out.println(BreadthFirstSearch.search(graph, 1).key);
+        System.out.println(BreadthFirstSearch.search(graph, 3).key);
+        System.out.println(BreadthFirstSearch.search(graph, 4).key);
+        System.out.println(BreadthFirstSearch.search(graph, 5).key);
     }
 }
