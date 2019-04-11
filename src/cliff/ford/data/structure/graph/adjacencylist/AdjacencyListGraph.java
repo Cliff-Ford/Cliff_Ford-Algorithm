@@ -11,7 +11,6 @@ import java.util.List;
 public class AdjacencyListGraph {
     public List<Vector> vectors = new ArrayList<>();
 
-
     /**
      * 添加顶点
      * @param key 顶点关键字
@@ -21,7 +20,7 @@ public class AdjacencyListGraph {
     }
 
 
-    private Vector findVectorByKey(Integer key){
+    protected Vector findVectorByKey(Integer key){
         if(key == null){
             return null;
         }
@@ -65,7 +64,7 @@ public class AdjacencyListGraph {
 
 
     /**
-     * 查找指定key的顶点，输出该顶点的所有边
+     * 查找指定key的顶点
      * @param key 指定key
      */
     public Vector get(Integer key){

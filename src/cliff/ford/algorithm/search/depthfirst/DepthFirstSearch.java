@@ -56,6 +56,7 @@ public class DepthFirstSearch {
                 return dfs(graph, key, flag, indexOfVector(graph, target));
             }
         }
+        //回溯到上一个节点，get(0)保证了回溯到与之连通的第一个节点，这个有addEdge保证
         if(!isAllVisited(flag)){
             return dfs(graph, key, flag, indexOfVector(graph, graph.vectors.get(index).reachAbleNodes.get(0)));
         }

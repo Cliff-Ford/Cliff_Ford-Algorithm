@@ -11,7 +11,7 @@ import java.util.List;
 public class Vector {
     public Integer key;
     public List<Vector> reachAbleNodes = new ArrayList<>();
-    Vector(Integer key){
+    public Vector(Integer key){
         this.key = key;
     }
 }
