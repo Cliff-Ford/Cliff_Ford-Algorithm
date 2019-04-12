@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BellmanFordSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BellmanFordSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+            <state relative-caret-position="986">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#findMinDistance#0;class#BellmanFordSearch#0" />
@@ -34,23 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BellmanFordSearchTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BellmanFordSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="-148">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -132,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraph.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylistwithweight/adjacencylist/AdjacencyListGraphWithWeightTest.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylistwithweight/adjacencylist/AdjacencyListGraphWithWeight.java" />
-        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java" />
         <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java" />
       </list>
     </option>
   </component>
@@ -197,26 +188,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ford" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="bellmanford" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ford" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="depthfirst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cliff_Ford-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ford" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="linear" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cliff_Ford-Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -246,9 +218,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,30 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BellmanFordSearchTest.test">
-    <configuration name="AdjacencyListGraphTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cliff_Ford-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cliff.ford.data.structure.graph.adjacencylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cliff.ford.data.structure.graph.adjacencylist" />
-      <option name="MAIN_CLASS_NAME" value="cliff.ford.data.structure.graph.adjacencylist.AdjacencyListGraphTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BellmanFordSearchTest.test2">
     <configuration name="AdjacencyListGraphWithWeightTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cliff_Ford-Algorithm" />
       <extension name="coverage">
@@ -348,6 +297,29 @@
       <option name="PACKAGE_NAME" value="cliff.ford.algorithm.search.bellmanford" />
       <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.search.bellmanford.BellmanFordSearchTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BellmanFordSearchTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cliff_Ford-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cliff.ford.algorithm.search.bellmanford.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cliff.ford.algorithm.search.bellmanford" />
+      <option name="MAIN_CLASS_NAME" value="cliff.ford.algorithm.search.bellmanford.BellmanFordSearchTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -420,19 +392,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AdjacencyListGraphTest.test" />
       <item itemvalue="JUnit.BreadthFirstSearchTest.test" />
       <item itemvalue="JUnit.DepthFirstSearchTest.test" />
       <item itemvalue="JUnit.AdjacencyListGraphWithWeightTest.test" />
       <item itemvalue="JUnit.BellmanFordSearchTest.test" />
+      <item itemvalue="JUnit.BellmanFordSearchTest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BellmanFordSearchTest.test2" />
         <item itemvalue="JUnit.BellmanFordSearchTest.test" />
         <item itemvalue="JUnit.AdjacencyListGraphWithWeightTest.test" />
         <item itemvalue="JUnit.BreadthFirstSearchTest.test" />
         <item itemvalue="JUnit.DepthFirstSearchTest.test" />
-        <item itemvalue="JUnit.AdjacencyListGraphTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -462,43 +434,44 @@
       <workItem from="1554875748351" duration="18363000" />
       <workItem from="1554946355161" duration="4474000" />
       <workItem from="1554961736805" duration="24401000" />
+      <workItem from="1555037655882" duration="4993000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 09m 59s.xml">
+    <history-entry file="BellmanFordSearchTest_test2 - 2019.04.12 at 12h 11m 46s.xml">
+      <configuration name="BellmanFordSearchTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 12h 11m 50s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 11m 03s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 12h 24m 18s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 21m 25s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 12h 25m 37s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 29m 28s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 13h 14m 38s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 34m 08s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 13h 23m 49s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 34m 45s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 13h 23m 51s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 38m 15s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 13h 23m 56s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 38m 34s.xml">
+    <history-entry file="BellmanFordSearchTest_test - 2019.04.12 at 13h 26m 57s.xml">
       <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 39m 19s.xml">
-      <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BellmanFordSearchTest_test - 2019.04.11 at 20h 43m 00s.xml">
-      <configuration name="BellmanFordSearchTest.test" configurationId="JUnit" />
+    <history-entry file="BellmanFordSearchTest_test2 - 2019.04.12 at 13h 27m 25s.xml">
+      <configuration name="BellmanFordSearchTest.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155646000" />
+    <option name="totallyTimeSpent" value="160639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,6 +484,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
@@ -522,12 +496,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957663" weight="0.32673267" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49957663" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21860817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -536,6 +509,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -570,40 +544,32 @@
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java</url>
           <line>39</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="139" />
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="140" />
+      <option name="time" value="144" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/tree/BinaryNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -816,9 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
           <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,9 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylistwithweight/adjacencylist/Vector.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/data/structure/graph/adjacencylist/AdjacencyListGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -850,9 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="421" selection-start-line="421" selection-end-line="421" />
-          <folding>
-            <element signature="e#15631#15632#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,9 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,9 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,15 +908,25 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="21">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+        <state relative-caret-position="986">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findMinDistance#0;class#BellmanFordSearch#0" />
@@ -976,16 +934,6 @@
             <element signature="method#initDistance#0;class#BellmanFordSearch#0" />
             <element signature="method#isTwoPointConnected#0;class#BellmanFordSearch#0" />
             <element signature="method#indexOfVectorByKey#0;class#BellmanFordSearch#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliff/ford/algorithm/search/bellmanford/BellmanFordSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

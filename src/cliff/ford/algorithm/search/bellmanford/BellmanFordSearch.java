@@ -83,20 +83,25 @@ public class BellmanFordSearch {
         boolean[] newFlag = new boolean[flag.length];
         System.arraycopy(flag,0,newFlag,0,flag.length);
         int indexForStartPoint = indexOfVectorByKey(graph, startPoint);
+        Vector cur = graph.vectors.get(indexForStartPoint);
         for(int i = 0, len = graph.vectors.get(indexForStartPoint).reachAbleNodes.size(); i < len; i++){
-            Vector cur = graph.vectors.get(indexForStartPoint);
+
             //一步到达终点
             if(minDistance == graph.weights.get(indexForStartPoint).get(i) && !newFlag[indexOfVectorByKey(graph, cur.reachAbleNodes.get(i).key)]){
                 newFlag[indexForStartPoint] = true;
                 String s = ""+newPath+cur.key+"->"+graph.vectors.get(indexForStartPoint).reachAbleNodes.get(i).key;
                 paths.add(s);
-            }else if(minDistance > graph.weights.get(indexForStartPoint).get(i) && !newFlag[indexOfVectorByKey(graph, cur.reachAbleNodes.get(i).key)]){
-                newPath.append(startPoint).append("->");
+            }else if(minDistance >= graph.weights.get(indexForStartPoint).get(i) && !newFlag[indexOfVectorByKey(graph, cur.reachAbleNodes.get(i).key)]){
+                String s = startPoint+"->";
+                newPath.append(s);
+
                 newFlag[indexForStartPoint] = true;
                 //剩下的步
                 restPath(graph,minDistance-graph.weights.get(indexForStartPoint).get(i),
                                     graph.vectors.get(indexForStartPoint).reachAbleNodes.get(i).key,newPath,newFlag,paths);
-
+                //回溯
+                newFlag[indexForStartPoint] = false;
+                newPath = new StringBuilder().append(newPath.substring(0, newPath.length()-s.length()));
 
             }
         }

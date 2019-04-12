@@ -29,5 +29,21 @@ public class BellmanFordSearchTest {
             System.out.println(path);
         }
     }
+    @Test
+    public void test2(){
+        AdjacencyListGraphWithWeight graph = new AdjacencyListGraphWithWeight();
+        graph.addVector(1);
+        graph.addVector(2);
+        graph.addVector(3);
+        graph.addVector(4);
+        graph.addEdge(1,2,1);
+        graph.addEdge(1,4,4);
+        graph.addEdge(2,3,2);
+        graph.addEdge(3,4,1);
+        List<String> paths = BellmanFordSearch.shortestPaths(graph,1,4);
+        for(String path : paths){
+            System.out.println(path);
+        }
+    }
 
 }
